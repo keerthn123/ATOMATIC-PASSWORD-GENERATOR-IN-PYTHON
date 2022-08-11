@@ -3,7 +3,7 @@ import random
 lower_case = "abcdefghijklmnopkrsruvwxyz"
 upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 number = "0123456789"
-symbols = "@#$%&*/?"
+symbols = "@#$%&*/\!?"
 Use_for = lower_case + upper_case + number + symbols
 length_for_pass = 8
 password = "".join(random.sample(Use_for, length_for_pass))
